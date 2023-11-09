@@ -2,7 +2,7 @@
 
     $server = 'localhost';
     $username = 'root';
-    $password = '';
+    $password = '1234';
     $database = 'earth_galle';
 
     $conn = new mysqli($server, $username, $password, $database);
