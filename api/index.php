@@ -1,14 +1,16 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+            <?php include 'styles.css'; ?>
+    </style>
     <title>Login</title>
 </head>
 
 <body>
     <div class="login-container">
         <div class="login-card">
-            <form action="server.php" method="post">
+            <form action="/server.php" method="post">
                 <h1>EUC Portal 2023</h1>
                 <div class="label">
                     <label for="name">First Name : </label>
